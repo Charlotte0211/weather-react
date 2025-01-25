@@ -1,4 +1,4 @@
-import React {useState} from "react";
+import React { useState } from "react";
 import axios from "axios";
 import './Weather.css';
 
@@ -17,7 +17,7 @@ setTemperature(response.data.temperature.current);
         <div className="row">
           <div className="col-9">
             <input
-              type="search"s
+              type="search"
               placeholder="Enter a city"
               className="form-control"
               autoFocus="on"
